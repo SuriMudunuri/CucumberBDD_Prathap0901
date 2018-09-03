@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "scenario description",
+        "description": "",
+        "id": "this-feature-is-designed-to-validate-muultiple-sets-of-data;scenario-description;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18646099386,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user I want to launch firefox browser pass the http://demo.nopcommerce.com/ and maximize it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 27
+                },
+                {
+                  "val": "http://demo.nopcommerce.com/",
+                  "offset": 52
+                }
+              ],
+              "location": "TC_02_SectionHeader.launchApplication(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@MulDataSet"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "scenario description",
+        "description": "",
+        "id": "this-feature-is-designed-to-validate-muultiple-sets-of-data;scenario-description;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57103935,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user I want to launch chrome browser pass the http://demo.nopcommerce.com/ and maximize it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 27
+                },
+                {
+                  "val": "http://demo.nopcommerce.com/",
+                  "offset": 51
+                }
+              ],
+              "location": "TC_02_SectionHeader.launchApplication(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@MulDataSet"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is designed to validate muultiple sets of data",
+    "description": "",
+    "id": "this-feature-is-designed-to-validate-muultiple-sets-of-data",
+    "keyword": "Feature",
+    "uri": "Different.feature"
+  }
+]
